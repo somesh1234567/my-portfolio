@@ -7,6 +7,9 @@
 
 /* Import global variables*/
 @import url(./partials/_global.css);
+html {
+    scroll-behavior: smooth;
+}
 
 /* STart Navigation*/
 
@@ -43,7 +46,7 @@
 /* Start Banner Area*/
 
 .site-main .site-banner{
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    background: url(../img/banner/brand-banner.jpg) no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title h3{
@@ -88,6 +91,13 @@
 }
 .site-main .about-area .about-title .paragraph > p{
     padding: 0.5rem 0;
+}
+.hero {
+    color: whitesmoke;
+}
+.hero:hover {
+    text-decoration: none;
+    color: black;
 }
 /* End About area */
 
